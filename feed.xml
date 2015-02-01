@@ -19,6 +19,7 @@ layout: null
 			<itunes:name>{{ site.author | xml_escape }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
+		<itunes:explicit>no</itunes:explicit>
 		<itunes:image href="{{ "/images/somethingstechnical.png" | prepend: site.baseurl | prepend: site.url }}" />
 		<itunes:category text="Technology">
 			<itunes:category text="Tech News" />
@@ -28,6 +29,7 @@ layout: null
 			<title>{{ post.title | cdata_escape }}</title>
 			<itunes:author>{{ site.author | xml_escape }}</itunes:author>
 			<itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle> 
+			<itunes:explicit>no</itunes:explicit>
 			<itunes:summary>{{ post.summary }}</itunes:summary>
 			<itunes:image href="{{ "/images/somethingstechnical.png" | prepend: site.baseurl | prepend: site.url }}" />
 			<enclosure url="{{ post.link }}" length="{{ post.length }}" type="audio/mpeg" />
