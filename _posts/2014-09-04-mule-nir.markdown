@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "3. \"Mule-nir\""
+date:   2014-09-04
+categories: episode
+duration: "01:13:54"
+length: 70933523
+link: http://media.soundcloud.com/stream/5MrRDkv7gN3o.mp3
+soundcloud_track_id: 188977979
+---
+
+## Show Notes
+
+### Blogs We Read
+
+* [★reeder](http://reederapp.com/)
+* [Marco.org](http://www.marco.org/)
+* [Daring Fireball](http://daringfireball.net/)
+* [inessential: weblog](http://inessential.com/)
+* [David Smith](http://david-smith.org/)
+* [furbo.org](http://furbo.org/)
+* [Hypercritical](http://hypercritical.co/)
+	* [FatBits name origin](http://arstechnica.com/staff/2005/09/1151/)
+* [Better Elevation by  Dave Wiskus](http://betterelevation.com/)
+* [Unread – An RSS Reader](http://supertop.co/unread/)
+	* [Jared Sinclair: My New Job](http://blog.jaredsinclair.com/post/94169163105/my-new-job)
+* [Michael Tsai - Blog](http://mjtsai.com/blog/)
+
+### The Story of Hydra
+
+* [Mjolnir Window Manager, formerly Hydra](https://github.com/sdegutis/mjolnir)
+* [Mjölnir - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Mj%C3%B6lnir)
+* [The Programming Language Lua](http://www.lua.org/)
+* [Homebrew — The missing package manager for OS X](http://brew.sh/)
+* [LuaRocks Wiki: LuaRocks](http://luarocks.org/)
+* [Search 'mjolnir' - MoonRocks](https://rocks.moonscript.org/search?q=mjolnir)
+* Examples of Other Package Managers
+	* [RubyGems.org: your community gem host](https://rubygems.org/)
+	* [npm](https://www.npmjs.com/)
+
+### Standard Markdown
+
+* [Daring Fireball: Markdown](http://daringfireball.net/projects/markdown/)
+* [CommonMark](http://commonmark.org/)
+* [Atom (standard) - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/Atom_(standard))
+* [AppleScript - Wikipedia, the free encyclopedia](http://en.wikipedia.org/wiki/AppleScript)
+* [JavaScript for Automation Release Notes](https://developer.apple.com/library/mac/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/)
+* [Standard Markdown is now Common Markdown](http://blog.codinghorror.com/standard-markdown-is-now-common-markdown/)
