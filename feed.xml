@@ -19,13 +19,10 @@ layout: null
 			<itunes:name>Matthew Gambill</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
-
-
 		<itunes:image href="{{ "/images/somethingstechnical.png" | prepend: site.baseurl | prepend: site.url }}" />
 		<itunes:category text="Technology">
 			<itunes:category text="Tech News" />
 		</itunes:category>
-		<itunes:new-feed-url>{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}</itunes:new-feed-url>
 		{% for post in site.posts limit:10 %}
 		<item>
 			<title>{{ post.title | xml_escape }}</title>
