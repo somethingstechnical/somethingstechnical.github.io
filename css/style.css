@@ -1,9 +1,9 @@
 a.site-title:hover {
   text-decoration: none;
 }
-a.site-title .somethings {
+.somethings {
 }
-a.site-title .technical {
+.technical {
   font-weight: bold;
 }
 a.site-title .fa-glass {
