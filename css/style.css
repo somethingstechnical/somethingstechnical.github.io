@@ -1,0 +1,12 @@
+a.site-title:hover {
+  text-decoration: none;
+}
+a.site-title .somethings {
+}
+a.site-title .technical {
+  font-weight: bold;
+}
+a.site-title .fa-glass {
+  font-size: 80%;
+  vertical-align: 2px;
+}
