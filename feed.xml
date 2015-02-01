@@ -12,11 +12,11 @@ layout: null
 		<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 		<lastBuildDate>{{ site.time | date_to_rfc822 }}</lastBuildDate>
 		<itunes:subtitle>{{ site.description | xml_escape }}</itunes:subtitle>
-		<itunes:author>Robert Day, Roben Kleene, &amp; Matthew Gambill</itunes:author>
+		<itunes:author>{{ site.author | xml_escape }}</itunes:author>
 		<itunes:keywords>gadgets, technology, geek, robert, day, roben, kleene, matthew, gambill, development, cocoa</itunes:keywords>
 		<itunes:summary>{{ site.description | xml_escape }}</itunes:summary>
 		<itunes:owner>
-			<itunes:name>Matthew Gambill</itunes:name>
+			<itunes:name>{{ site.author | xml_escape }}</itunes:name>
 			<itunes:email>{{ site.email }}</itunes:email>
 		</itunes:owner>
 		<itunes:image href="{{ "/images/somethingstechnical.png" | prepend: site.baseurl | prepend: site.url }}" />
@@ -25,12 +25,13 @@ layout: null
 		</itunes:category>
 		{% for post in site.posts limit:10 %}
 		<item>
-			<title>{{ post.title | xml_escape }}</title>
-			<itunes:author>Robert Day, Roben Kleene, &amp; Matthew Gambill</itunes:author>
+			<title>{{ post.title | cdata_escape }}</title>
+			<itunes:author>{{ site.author | xml_escape }}</itunes:author>
 			<itunes:subtitle>{{ site.title | xml_escape }}: {{ post.title | xml_escape }}</itunes:subtitle> 
-			<itunes:summary>{{ post.content | xml_escape }}</itunes:summary>
+			<itunes:summary>{{ post.summary }}</itunes:summary>
 			<itunes:image href="{{ "/images/somethingstechnical.png" | prepend: site.baseurl | prepend: site.url }}" />
 			<enclosure url="{{ post.link | prepend: site.baseurl | prepend: site.url }}" length="{{ post.length }}" type="audio/mpeg" />
+	        <description><![CDATA[{{ post.content | expand_urls: site.url | cdata_escape }}]]></description>
 			<guid>{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
 			<pubDate>{{ site.time | date_to_rfc822 }}</pubDate>
 			<itunes:duration>{{ post.duration }}</itunes:duration>

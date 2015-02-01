@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "3. \"Mule-nir\""
+summary: How we read RSS feeds, the story of Hydra, and Standard Markdown
 date:   2014-09-04
 categories: episode
 duration: "01:13:54"
@@ -16,7 +17,7 @@ soundcloud_track_id: 188977979
 * [★reeder](http://reederapp.com/)
 * [Marco.org](http://www.marco.org/)
 * [Daring Fireball](http://daringfireball.net/)
-* [inessential: weblog](http://inessential.com/)
+* [inessential](http://inessential.com/)
 * [David Smith](http://david-smith.org/)
 * [furbo.org](http://furbo.org/)
 * [Hypercritical](http://hypercritical.co/)
