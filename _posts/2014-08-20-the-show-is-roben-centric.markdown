@@ -6,6 +6,6 @@ date:   2014-08-20
 categories: episode
 duration: "01:00:45"
 length: 58316172
-link: http://media.soundcloud.com/stream/pPhfNkQ9Ozi4.mp3
+link: https://somethingstechnical.github.io/podcasts/the-show-is-roben-centric.mp3
 soundcloud_track_id: 165809074
 ---

@@ -6,7 +6,7 @@ date:   2014-09-04
 categories: episode
 duration: "01:13:54"
 length: 70933523
-link: https://cf-media.sndcdn.com/5MrRDkv7gN3o?Policy=eyJTdGF0ZW1lbnQiOlt7IlJlc291cmNlIjoiKjovL2NmLW1lZGlhLnNuZGNkbi5jb20vNU1yUkRrdjdnTjNvIiwiQ29uZGl0aW9uIjp7IkRhdGVMZXNzVGhhbiI6eyJBV1M6RXBvY2hUaW1lIjoxNTg3NDExMjYzfX19XX0_&Signature=Jr8UenO2ly7s77TCEMiS1Wy6svGFV-7qZqrWUBaA7sVSML3AwTUKCOSC5sIz9owKtWoZR~-36LPM5-6HGJ68MT6yp2HyBp0ngEB0s9lJSpFPs7pwm2-eJE-REzM2sG480cBobyKCRXIa9IzaZyvR-NXqRt5mhnhYfhUQRroXen7trvENCi7owuC~tyI7wMmUmWqPMGc5FH5GJUtLT9ITPvwLhsi6LvsNoszBFL762p0cydD8x5QdwLiFJk~kaKNEJyvxJNPPmi2jWQ5UWgf-kqVNUdqFa5k6hUvsftrT4Xs4d1AgStKEDCXFfKY2vsZS-xemsFpkDVFg8aAQvRD38A__&Key-Pair-Id=APKAI6TU7MMXM5DG6EPQ
+link: https://somethingstechnical.github.io/podcasts/mule-nir.mp3
 soundcloud_track_id: 188977979
 ---
 
