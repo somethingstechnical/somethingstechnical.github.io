@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "4. \"The M1\""
+summary: How we read RSS feeds, the story of Hydra, and Standard Markdown
+date:   2020-11-12
+categories: episode
+duration: "01:02:07"
+length: 164341487
+link: https://somethingstechnical.github.io/podcasts/4-the-m1.mp3
+soundcloud_track_id: 1034541739
+---
